@@ -1,0 +1,37 @@
+The typeof operator returns a string indicating the type of the unevaluated operand.
+
+CODE: console.log(typeof(1))
+
+Output: number
+
+CODE: console.log(typeof(1.1));
+
+Output: number
+
+CODE: console.log(typeof('1.1'));
+
+Output: string
+
+CODE:console.log(typeof(true));
+
+Output: boolean
+
+CODE:console.log(typeof(null));
+
+Output:object
+
+CODE: console.log(typeof(undefined));
+
+output: undefined
+
+CODE: console.log(typeof[]);
+
+Output: object
+
+CODE: console.log(typeof({}));
+
+Output: object
+
+CODE: console.log(typeof(NaN));
+
+Output: number
